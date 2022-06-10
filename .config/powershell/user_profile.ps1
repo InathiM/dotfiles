@@ -6,9 +6,14 @@ oh-my-posh --init --shell pwsh --config ~/inathi-theme.omp.json | Invoke-Express
 
 # History
 
+Set-PSReadLineOption -EditMode Emacs
+Set-PSReadLineOption -BellStyle None
+Set-PSReadLineKeyHandler -Chord 'Ctrl+d' -Function DeleteChar
 Set-PSReadLineOption -PredictionSource History
-Set-PSReadLineOption -PredictionViewStyle ListView
-Set-PSReadLineOption -EditMode Windows
+
+# Set-PSReadLineOption -PredictionSource History
+# Set-PSReadLineOption -PredictionViewStyle ListView
+# Set-PSReadLineOption -EditMode Windows
 
 # Alias
 
