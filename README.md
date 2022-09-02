@@ -15,6 +15,8 @@
 - [z](https://www.powershellgallery.com/packages/z) - Directory jumper
 
 
-
-
 ## About me
+
+- [Twitter](https://www.twitter.com/_inathim) 
+
+
